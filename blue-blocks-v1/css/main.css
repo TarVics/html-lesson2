@@ -1,0 +1,43 @@
+.container {
+    width: 33rem;
+    height: 54rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #abefef;
+    color: #ffffff;
+
+    font-family: "Candara Light", sans-serif;
+    font-size: 1.8rem;
+}
+.top, .widget, .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top {
+    margin: 0.9rem 0.9rem 0;
+    flex-grow: 1;
+    background: #246abc;
+}
+.middle {
+    margin: 0.45rem;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+
+    font-size: 0.6em;
+}
+.widget {
+    margin: 0.45rem;
+    flex-grow: 1;
+    background: #18467b;
+}
+.bottom {
+    flex-grow: 2.2;
+    margin: 0 0.9rem 0.9rem;
+    background: #246abc;
+}
