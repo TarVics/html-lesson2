@@ -7,7 +7,7 @@ body {
     justify-content: start;
     align-items: center;
 }
-.services {
+.widgets {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -56,7 +56,7 @@ body {
     color: #fdfdfe;
     background: #55c2b5;
 }
-.services-header{
+.info-text{
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
