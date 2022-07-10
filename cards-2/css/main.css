@@ -42,6 +42,10 @@ body {
     line-height: 1.8em;
     color: #967668;
 }
+.widget-button:hover {
+    background: #92d361;
+    transition: 500ms;
+}
 .widget-button {
     width: 5rem;
     height: 1.75rem;
@@ -53,10 +57,11 @@ body {
     text-align: center;
     vertical-align: center;
     text-decoration: none;
+    transition: 1000ms;
     color: #fdfdfe;
     background: #55c2b5;
 }
-.info-text{
+.info-text {
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;

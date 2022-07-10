@@ -34,6 +34,10 @@
 
     color: #625f5f;
 }
+.widget-button:hover {
+    transition: 500ms;
+    background: #0cb60c;
+}
 .widget-button {
     width: 9.38rem;
     height: 3.13rem;
@@ -42,7 +46,7 @@
     vertical-align: center;
     text-align: center;
     text-decoration: none;
-
+    transition: 1000ms;
     color: white;
     background: green;
 }
